@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_structure/controllers/menu_controller.dart';
 import 'package:flutter_structure/screens/dashboard.dart';
 import 'package:flutter_structure/screens/home.dart';
 import 'package:get/get.dart';
 
 void main() {
+  Get.put(MenuController());
   runApp(const MyApp());
 }
 
